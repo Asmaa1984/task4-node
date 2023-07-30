@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>{{>header}}</h2>
+    <div class="container" id="weather">
+        <h2>weather services</h2>
+        <form action="http://localhost:5000/service2" method="GET">
+            Country <input type="text" name="country" placeholder="Enter Country name"><br>
+            <input type="submit" id="submit" value="Show weather Detail">
+        </form>
+
+
+        
+        
+    </div>
+    <h3>{{>footer}}</h3>
+    </body>
+</html>
